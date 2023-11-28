@@ -1,0 +1,113 @@
+@media screen and (max-width: 600px){
+    .naveg{
+        grid-template-columns: 100px 550px;
+    }
+    .menu a{
+        margin: 8px;
+        
+        padding: 0;
+        font-size: 24px;
+    }
+
+    .tna{
+        margin-left: 120px;
+    }
+    .tela p{
+        float: none;
+    }
+    .tela img{
+        float: none;
+    }
+    .textos{
+        grid-template-columns: 350px;
+        grid-template-rows: 270px 270px 270px 270px;
+        margin-left: 100px;
+        
+        padding: 150px;
+    }
+
+    .caixa{
+        grid-template-columns: 300px 400px;
+        grid-template-rows: 400px 200px;
+        animation-duration: 2s;
+        animation-name: ani2;
+    }
+    .cient_b{
+        grid-template-rows: 85px;
+        grid-template-columns: 95px 95px 95px 95px 95px 95px 95px 95px;
+        margin-left: 50px;
+    }
+    .cient_b button{
+        margin: 30px;
+    }
+    .imagem img{
+        width: 250px;
+        height: 250px;
+    }
+    .imagem img:hover{
+        width: 300px;
+        height: 300px;
+    }
+
+    .principal{
+        grid-template-columns: 400px 400px;
+    }
+    .imj img{
+        width: 350px;
+        height: 300px;
+    }
+
+    .conteiner{    
+        grid-template-columns: 240px 240px 240px;
+        grid-template-rows: 400px 400px ;
+    }
+    .pessoas img{
+        width: 150px;
+        height: 150px;
+    }
+    .pessoas img:hover{
+        width: 180px;
+        height: 180px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1500px) and ( max-width: 3000px){
+    .titulo{
+        margin-left: 400px;
+        animation-duration: 2.5s;
+        animation-name: ani4;
+    }
+    .caixa{
+        margin-left: 400px;
+        animation-duration: 2.5s;
+        animation-name: ani4;
+        margin-bottom: 170px;
+    }
+
+    .principal{
+        margin-left: 400px;
+        animation-duration: 2.5s;
+        animation-name: ani4;
+    }
+    .se_img{
+        margin-left: 400px;
+        animation-duration: 2.5;
+        animation-name: ani4;
+    }
+
+    .conteiner{
+        margin-top: 300px;
+        margin-left: 250px;
+        animation-duration: 2.5s;
+        animation-name: ani2;
+
+        grid-template-columns: 300px 300px 300px 300px 300px;
+    }
+    .pessoas{
+        transform: scale(1.2);
+    }
+}
