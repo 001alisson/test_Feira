@@ -152,14 +152,14 @@ body{
 }
 @keyframes ani2{
     from{
-        margin-left: 0;
+        margin-left: -220;
         opacity: 0;
     }
     to{
-        margin-left: 250px;
+        margin-left: 0;
         opacity: 1.5;
     }
-}
+} 
 @keyframes pp{
     from{
         font-size: 1px;
